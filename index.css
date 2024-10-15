@@ -17,24 +17,75 @@ body {
   }
   
   td {
-    border: 1px solid #ccc;
+    border: 2px solid black;
     padding: 10px;
     width: 60px;
     height: 60px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     background-color: #e0e0e0;
+    font-weight: bold;
+  }
+
+  .hidrogenio {
+    background-color: #A2CE41;
+  
   }
   
-  .lanthanides td,
-  .actinides td {
-    background-color: #e2baba;
+  .helio {
+    background-color: #43A3D5;
+  }
+
+  .litio {
+    background-color: #F8B101;
+  }
+ 
+  .berilio {
+    background-color:#E7D712;
+  }
+
+  .escandio {
+    background-color:#ED8D8E ;
+  }
+
+  .boro {
+    background-color: #4CB6AC ;
+  }
+
+  .aluminio {
+    background-color:#A1C7D4;
+  }
+
+  .fluor {
+    background-color: #6ECBEB;
+  }
+  .espaco {
+    background-color: #f4f4f4;
+    border: none;
+
+  }
+  .lanthanides {
+    background-color: #91E4E9;
     
+  }
+
+  .actinides {
+    background-color: #D2B1E0;
+  }
+
+  .lanthanides .espaco {
+    background-color: #f4f4f4;
+    border: none;
     
   }
   
+  .actinides .espaco {
+    background-color: #f4f4f4;
+    border: none;
+  }
+
   .element {
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
     position: relative;
   }
   
@@ -43,5 +94,6 @@ body {
   }
   
   td.element:hover {
-    background-color: #ddd;
+    background-color: #e9c1c1;
+    
   }
