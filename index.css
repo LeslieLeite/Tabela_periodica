@@ -97,3 +97,16 @@ body {
     background-color: #e9c1c1;
     
   }
+
+footer {
+    
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.text_footer {
+  color: #3f3c3c;
+  font-size: 25px;
+    
+}
